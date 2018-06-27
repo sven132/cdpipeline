@@ -9,6 +9,6 @@ public class TestRestController {
 
     @RequestMapping(value = "/hello", method = RequestMethod.GET, produces = "application/json")
     public String hello() {
-        return "Hello 4";
+        return "Hello 5";
     }
 }
