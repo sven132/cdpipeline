@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestRestController {
 
-    @RequestMapping(method = RequestMethod.GET, produces = "application/json")
-    public String getCategories() {
+    @RequestMapping(value = "/hello", method = RequestMethod.GET, produces = "application/json")
+    public String hello() {
         return "Hello";
     }
 }
